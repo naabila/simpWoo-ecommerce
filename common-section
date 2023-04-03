@@ -1,0 +1,46 @@
+<div class="section-title text-center">
+  <div class="section-title-content">
+    <h2>top trending items of week</h2>
+  <p>check this weeks top selling items for sale</p>
+  </div>
+ </div> <!--section title-->
+ 
+ <button class="btn">Click here</button>
+
+ <!-- comm0n section -->
+
+ <div class="product-box">
+    <div class="product-image">
+      <img src="./images/product-image/denim.jpg" alt="">
+      <div class="product-badge">
+        <span>
+          Sale
+        </span>
+        <i class="fa-solid fa-tag"></i>
+    </div> <!--badge-->
+     <!-- product overlay start -->
+   <div class="product-overlay">
+    <div class="overlay-content">
+      <a href="#" class="product-btn product-detail-btn">view more</a>
+      <a href="#" class="product-btn">Add to cart</a>
+    </div>
+   </div>
+   <!-- product overlay end -->
+    </div> <!--product image-->
+  
+    
+    <div class="product-details-container">
+      <div class="product-name">
+        <h4>
+          <a href="#">
+            Monferetto Watch
+          </a>
+        </h4>
+      </div>
+      <div class="product-details d-flex justify-content-between">
+        <span>Mens Watches</span>
+        <h5>$45.99</h5>
+      </div>
+
+    </div>
+  </div> <!--product box-->
