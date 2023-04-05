@@ -393,7 +393,7 @@ section.catagory-section img {
 .catagory-name-3{
     position: absolute;
     top: 4rem;
-    left: 6rem;
+    left: 4rem;
     background: #ffffffcf;
     font-size: 2rem;
     padding: 1rem 3rem;
@@ -403,7 +403,7 @@ section.catagory-section img {
 .catagory-name-4{
     position: absolute;
     top: 4rem;
-    left: 6rem;
+    left: 4rem;
     background: #ffffffcf;
     font-size: 2rem;
     padding: 1rem 3rem;
@@ -518,7 +518,7 @@ ul.footer-widget-2-lists li {
 }
 /* footer bottom */
 .footer-bottom.text-sm-start.text-lg-center {
-    border-top: 1px solid var(--para-color);
+    border-top: 1px solid #55555554;
     
     padding: 2rem 0;
 }
