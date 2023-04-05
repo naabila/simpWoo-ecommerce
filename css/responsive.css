@@ -3,11 +3,104 @@
 }
 
 @media(max-width:991px){
-    
+   
+    .padding-up-down{
+        padding: 8rem 0; 
+     }
+     .mobile-logo{
+        padding-top: 1rem;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+/* ctagory---------------- */
+.catagory-section{
+    display: none;
 }
-@media(max-width:767px){
+    /* Footer===================== */
+    .footer.top {
+        padding: 6rem 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    }
+    .widget-2,
+.widget-4,
+.widget-3{
+    margin-left: 0rem;
+}
+}
+@media(max-width:768px){
+/* common css------------------------------ */
+.side-space{
+    padding: 0 2rem;
+}
+.padding-up-down{
+    padding: 6rem 0; 
+ }
+
+
+
+/* header------------------------------------ */
+    header.header{
+        padding: 0 3rem;
+    } 
+    .search-widget {
+        margin-top: 0rem;
+    }
+    .canvas-logo{
+        visibility: visible;
+        opacity: 1;
+    }
+    .mobile-logo{
+        padding-top: 1rem;
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
+    ul.navbar-nav li {
+        margin: 1.5rem 0;
+    }
+    /* hero section =============== */
+    .hero-top{
+        text-align: center;
+        flex-direction: column;
+    }
+    .search-widget {
+        margin-top: 2rem;
+    }
+    .search-widget input.form-control {
+        font-size: 1.4rem;
+        padding: 1.5rem 2rem;
+        width: 30rem;
+        /* max-width: 56rem; */
+    }
     
+    .hero-bottom {
+        padding: 9rem 0 18rem 0;
+        
+    }
+
+    /* Catagory------------------------ */
+    section.catagory-section img {
+        padding: 2rem 2rem;
+        height: 31rem;
+        width: 50rem;
+    }
+    /* Article--------------------------------------------------- */
+
+    .article-content{
+        padding-right: 0;
+    }
+
+    /* newsletter---------------------------------- */
+   
 }
 @media(max-width:576px){
-    
+    .article-container {
+        flex-direction: column;
+    }
+    .article-content{
+        padding-left: 0;
+    }
+   
 }

@@ -9,25 +9,711 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- animate -->
+   <link rel="stylesheet" href="./css/animate.min.css">
   <!-- Custom style -->
+ 
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
- <div class="container mt-5">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 col-12">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container header-container">
+        <div class="logo mobile-logo">
+          <a href="index.html">simp
+            <span>woo
+            </span>
+          </a>
+        </div>
       
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Off canvus -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            
+            <div class="logo canvas-logo">
+              <a href="index.html">simp
+                <span>woo
+                </span>
+              </a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div> <!--canvas header end-->
+          <div class="offcanvas-body">
+            
+
+
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">contact</a>
+              </li>
+             </ul>
+             <div class="menu-right">
+              <ul class="menu-right-links d-flex">
+                <li><a href="#">
+                  <form>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>USD</option>
+                      <option value="1">BDT</option>
+                      <option value="2">EUR</option>
+                      <option value="3">INR</option>
+                    </select>
+                  </form>
+                </a></li>
+                <li><a href="#">
+                  <i class="fa-solid fa-user"></i>
+                </a></li>
+                <li><a href="#">
+                  <i class="fa-brands fa-gratipay" style="color: #dd59ad;"></i>
+                </a></li>
+                <li><a href="#">
+                  <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
+                </a></li>
+              </ul>
+  
+             </div>
+            
+          </div> <!--off canvus body-->
+        </div>
+        <!-- Off canvus -->
+        
+      </div>
+    </nav>
+  </header>
+ 
+<!-- ==========Hero Section ================================================================================================================================== ===================================================================================================================================================================-->
+
+<section class="hero-section">
+  <div class="hero-top-section">
+    <div class="container">
+      <div class="hero-top d-flex justify-content-between flex-sm-column flex-md-row">
+        <div class="logo">
+          <a href="index.html">simp
+            <span>woo
+            </span>
+          </a>
+        </div>
+        <div class="search-widget">
+          <form>
+            <input class="form-control me-2" type="search" placeholder="Type search and hit enter" aria-label="Search">
+          </form>
+        </div>
+      </div> <!--hero top-->
+      </div> <!--container-->
+    </div><!--hero top section-->
+    <div class="hero-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-10">
+            <h2 class="wow animate__fadeInUp" data-wow-duration="1s">NOW INTRODUCING
+            </h2>
+            <h1 class="wow animate__fadeInUp" data-wow-duration="1.5s">WINTER 2023 COLLECTIONS
+            </h1>
+            <a class="wow animate__fadeInUp btn" data-wow-duration="1.8s" href="#" class="btn">Shop now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!--hero bottom-->
+  </div>
+  <!--container-->
+</section>
+
+<!-- ==========offer Section ================================================================================================================================== ===================================================================================================================================================================-->
+<section class="offer-section padding-up-down">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="offer-content">
+          <h3>30 days return</h3>
+          <p>
+            If you find any damage or
+            dont like we will return
+          </p>
+        </div>
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="offer-content">
+          <h3>FREE SHIPPING</h3>
+          <p>
+            If you find any damage or
+            dont like we will return
+          </p>
+        </div>
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="offer-content">
+          <h3>SUPPORT 24/7
+          </h3>
+          <p>
+            If you find any damage or
+            dont like we will return
+          </p>
+        </div>
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="offer-content">
+          <h3>100% PAYMENT SECURE
+          </h3>
+          <p>
+            If you find any damage or
+            dont like we will return
+          </p>
+        </div>
+      </div> <!--col-->
+    </div> <!--row-->
+
+  </div>
+</section>
+
+<!-- ==========catagory Section ================================================================================================================================== ===================================================================================================================================================================-->
+<section class="catagory-section padding-up-down">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6 col-12">
+        <div class="catagory-image-1">
+          <img src="./images/index.jpg" alt="">
+          <div class="catagory-name">
+            <span>accessories</span>
+          </div>
+        </div>
+        
+        
+      </div> <!--col-->
+      <div class="col-lg-7 col-12">
+        
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="catagory-image-2">
+              <img src="./images/catagory-3.jpg" alt="">
+              <div class="catagory-name-2">
+                <span>drinks</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="catagory-image-3">
+              <img src="./images/catagory-image-2.jpg" alt="">
+              <div class="catagory-name-3">
+                <span>electronics</span>
+              </div>
+            </div>
+            
+          </div>
+        </div><!--row-->
+        <div class="catagory-image-4">
+          <img src="./images/catagory-4.jpg" alt="">
+          <div class="catagory-name-4">
+            <span>footwear</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
- </div>
+</section>
 
 
+<!-- ==========Items Section ================================================================================================================================== ===================================================================================================================================================================-->
+<section class="item-section">
+  <div class="section-title text-center">
+    <div class="section-title-content">
+      <h2 class="wow animate__fadeInUp" data-wow-duration="1.5s">top trending items of week</h2>
+    <p class="wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">check this weeks top selling items for sale</p>
+    </div>
+   </div> <!--section title-->
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/watch.jpg" alt="">
+            <div class="product-badge">
+              <span>
+                Sale
+              </span>
+              <i class="fa-solid fa-tag"></i>
+          </div> <!--badge-->
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/shoe-in-hand.jpg" alt="">
+           
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/shoe.jpg" alt="">
+            
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/plant.jpg" alt="">
+            
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/sandel.jpg" alt="">
+            
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/iphone.jpg" alt="">
+            
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/denim.jpg" alt="">
+            
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-box">
+          <div class="product-image">
+            <img src="./images/product-image/black-coat.jpg" alt="">
+            <div class="product-badge">
+              <span>
+                Sale
+              </span>
+              <i class="fa-solid fa-tag"></i>
+          </div> <!--badge-->
+           <!-- product overlay start -->
+         <div class="product-overlay">
+          <div class="overlay-content">
+            <a href="#" class="product-btn product-detail-btn">view more</a>
+            <a href="#" class="product-btn">Add to cart</a>
+          </div>
+         </div>
+         <!-- product overlay end -->
+          </div> <!--product image-->
+        
+          
+          <div class="product-details-container">
+            <div class="product-name">
+              <h4>
+                <a href="#">
+                  Monferetto Watch
+                </a>
+              </h4>
+            </div>
+            <div class="product-details d-flex justify-content-between">
+              <span>Mens Watches</span>
+              <h5>$45.99</h5>
+            </div>
+      
+          </div>
+        </div> <!--product box-->
+      </div> <!--col-->
+    </div> <!--row-->
+
+   </div> <!--container-->
+</section>
+
+<!-- ==========catagory Section ================================================================================================================================== ===================================================================================================================================================================-->
+<section class="article-section padding-up-down">
+  <div class="section-title text-center">
+    <div class="section-title-content">
+      <h2 class="wow animate__fadeInUp" data-wow-duration="1.5s">recent articles from blog</h2>
+    <p class="wow animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">check this weeks top selling items for sale</p>
+    </div>
+   </div> <!--section title-->
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+      
+        <div class="wow animate__slideInLeft article-container d-flex align-content-center"
+        data-wow-duration="1.5s">
+          <div class="article-image flex-shrink-0">
+            <img src="./images/article-1.jpg" alt="article">
+  
+          </div>
+          <div class="article-content flex-grow-1 ms-3">
+            <h4>
+              <a href="blog.html">
+                Introducing 2018 Summer
+              Selectins for girls
+              </a>
+            </h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+  
+            </p>
+            <small>By Admin / April 5,2023</small>
+  
+          </div>
+        </div> <!--article container-->
+      </div> <!--col-->
+      <div class="col-lg-6 col-12">
+      
+        <div class="wow animate__slideInRight article-container d-flex align-content-center"
+        data-wow-duration="1.5s">
+          <div class="article-image flex-shrink-0">
+            <img src="./images/article-2.jpg" alt="article">
+  
+          </div>
+          <div class="article-content flex-grow-1 ms-3">
+            <h4>
+              <a href="blog.html">
+                Introducing 2018 Summer
+              Selectins for girls
+              </a>
+            </h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+  
+            </p>
+            <small>By Admin / April 5,2023</small>
+  
+          </div>
+        </div> <!--article container-->
+      </div> <!--col-->
+      <div class="col-lg-6 col-12">
+      
+        <div class="wow animate__slideInLeft article-container d-flex align-content-center"
+        data-wow-duration="1.5s">
+          <div class="article-image flex-shrink-0">
+            <img src="./images/article-3.jpg" alt="article">
+  
+          </div>
+          <div class="article-content flex-grow-1 ms-3">
+            <h4>
+              <a href="blog.html">
+                Introducing 2018 Summer
+              Selectins for girls
+              </a>
+            </h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+  
+            </p>
+            <small>By Admin / April 5,2023</small>
+  
+          </div>
+        </div> <!--article container-->
+      </div> <!--col-->
+      <div class="col-lg-6 col-12">
+      
+        <div class="wow animate__slideInRight article-container d-flex align-content-center"
+        data-wow-duration="1.5s">
+          <div class="article-image flex-shrink-0">
+            <img src="./images/article-4.jpg" alt="article">
+  
+          </div>
+          <div class="article-content flex-grow-1 ms-3">
+            <h4>
+              <a href="blog.html">
+                Introducing 2018 Summer
+              Selectins for girls
+              </a>
+            </h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum...
+  
+            </p>
+            <small>By Admin / April 5,2023</small>
+  
+          </div>
+        </div> <!--article container-->
+      </div> <!--col-->
+
+    </div> <!--row-->
+    
+
+   </div><!--container-->
+</section>
+
+<!-- ==========News letter Section ================================================================================================================================== ===================================================================================================================================================================-->
+<section class="news-letter text-center">
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-md-9 col-12 mx-auto">
+      <div class="news-letter-content">
+        <h3 class="wow animate__fadeInUp" data-wow-duration="1.5s">Join Our Newsletter</h3>
+        <h4 class="wow animate__fadeInUp" data-wow-duration="1.9s">And Get Notified For Updates</h4>
+        <form class="news-letter-form d-flex wow animate__fadeInUp" data-wow-duration="2.4s">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+          <a href="#" class="btn">Submit</a>
+        </form>
+    </div>
+  </div>
+  </div> <!--content-->
+ </div> <!--container-->
+</section>
+
+<!-- ==========Items Section ================================================================================================================================== ===================================================================================================================================================================-->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer top">
+      <div class="footer-widget widget-1">
+        <div class="footer-heading">
+          <h4 class="wow animate__fadeInUp" data-wow-duration="1.5s">Contact Us
+          </h4>
+        </div>
+        <div class="footer-paragraph">
+          <p class="wow animate__fadeInUp" data-wow-duration="1.5s">
+            Lorem Ipsum is simply dummy text of the printing and types etting industry. types etting industry. Lorem Ipsum has been the Ipsum has been the industry's standard dummy text ever  the 1500s...
+          </p>
+        </div>
+      </div>  <!--widget 1-->
+      <div class="footer-widget widget-2">
+        <div class="footer-heading">
+          <h4 class="wow animate__fadeInUp" data-wow-duration="1.5s">opening hours
+          </h4>
+        </div>
+        <ul class="footer-widget-2-lists">
+          <li class="wow animate__fadeInUp" data-wow-duration="1s">
+            Mon - Fri: 7am - 10pm</li>
+          <li class="wow animate__fadeInUp" data-wow-duration="2s">​​Saturday: 8am - 10pm</li>
+          <li class="wow animate__fadeInUp" data-wow-duration="2s">​Sunday: 8am - 11pm</li>
+        </ul>
+        
+
+      </div><!--widget 2-->
+      <div class="footer-widget widget-3">
+        <div class="footer-heading">
+          <h4 class="wow animate__fadeInUp" data-wow-duration="1.5s">Help & support
+          </h4>
+        </div>
+        <ul class="footer-widget-2-lists">
+          <li class="wow animate__fadeInUp" data-wow-duration="1s">
+            Shipping & Returns
+          </li>
+          <li class="wow animate__fadeInUp" data-wow-duration="2s">​Privacy Policy</li>
+          <li class="wow animate__fadeInUp" data-wow-duration="2s">FAQ’s</li>
+        </ul>
 
 
+        
 
+      </div><!--widget 3-->
+      <div class="footer-widget widget-4">
+        <div class="footer-heading">
+          <h4 class="wow animate__fadeInUp" data-wow-duration="1.5s">live support
+          </h4>
+        </div>
+        <ul class="footer-widget-2-lists">
+          <li class="wow animate__fadeInUp" data-wow-duration="1s">
+            <h5>Call : 800 1234 56789
+            </h5></li>
+          <li class="wow animate__fadeInUp" data-wow-duration="2s">​info@mywebsite.com</li>
+          
+        </ul>
 
-
+      </div><!--widget 4-->
+      
+    </div> <!--top--> 
+    
+   
+  </div> 
+  <!--container-->
+  <div class="footer-bottom text-sm-start text-lg-center">
+    <p>(C) 2023 All Rights Reserved. Simple Wo Commerce Template</p>
+  </div> 
+  <!--bottom-->
+</footer>
 
 
 
@@ -36,9 +722,13 @@
 
 
   <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
   <!-- plugins -->
+  <!-- wow -->
+  <script src="./js/plugins/wow.min.js"></script>
   <!-- bootstrap -->
   <script src="./js/bootstrap.bundle.min.js"></script>
   <!-- custom js -->
+  <script src="./js/main.js"></script>
 </body>
 </html>
