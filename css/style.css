@@ -70,6 +70,19 @@ a:hover{
     text-transform: uppercase;
     display: inline-block;
 }
+.btn-2{
+    padding: 2rem 3rem;
+    background-color: var(--para-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+}
+.btn-2:hover{
+    color: #fff;
+}
 
 .btn:hover{
     background-color: var(--btn-hover);
@@ -234,10 +247,10 @@ li.nav-item {
 }
 
 a.nav-link {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     transition: .3s;
-    font-weight: 500;
+    font-weight: 600;
 }
 a.nav-link:hover{
     color: var(--default-blue);
@@ -349,6 +362,31 @@ section.hero-section:after {
     margin: 2rem 0 4rem 0;
 }
 
+/* Secondary hero================================= */
+.hero-bottom-secondary h1 {
+    z-index: 10;
+    position: relative;
+    font-size: clamp(2.4rem,3vw,3.1rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    /* padding: 8rem 0 7.5rem 0; */
+}
+
+.hero-bottom-secondary {
+    padding: 9.5rem 0 8rem 0;
+}
+
+section.content-path {
+    padding: 3rem 0;
+ 
+    border-bottom: 1px solid #00000066;
+}
+
+.path-content h4 {
+    color: #000;
+    font-size: 1.8rem;
+}
+
 /* ================================================================================================= Offer ================================================*/
 .offer-content{
     padding: 0 7.5rem 0 0rem;
@@ -416,6 +454,17 @@ section.catagory-section img {
 .article-container {
     padding: 4.5rem 2rem;
 }
+.article-image {
+    overflow: hidden;
+}
+
+.article-image img:hover {
+    transform: scale(1.1);
+}
+
+.article-image img {
+    transition: .4s;
+}
 .article-content h4 {
     font-size: 1.6rem;
     line-height: 3rem;
@@ -437,7 +486,57 @@ section.catagory-section img {
 .article-content {
     padding: 0 0rem 0 2rem;
 }
+.load-more-button {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin: 3rem 0;
+}
 
+/* single article========================= */
+.single-article-image img {
+    width: 69%;
+    margin: 0 auto;
+    height: 76vh;
+}
+
+section.single-blog {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.single-article-image {
+    margin: 10rem auto 6rem 0;
+}
+.blog-heading h3 {
+    font-size: clamp(2rem,40vw,4.1rem);
+    color: #000;
+    font-weight: 400;
+    margin: 4rem 0 2.7rem 0;
+}
+
+.blog-heading {
+    max-width: 66rem;
+    margin: 0 a auto;
+    margin: 0 auto 0 auto;
+}
+
+.blog-heading h4 {
+    font-size: 1.2rem;
+    color: #000;
+}
+.blog-texts {
+    max-width: 69%;
+    margin: 5rem auto 0 auto;
+}
+
+.blog-texts p {
+    line-height: 3.2rem;
+    font-size: clamp(1.4rem,16vw,1.6rem);
+    padding: 2rem 0 2rem 0;
+}
 /* ================================================================================================= News letter*/
 .news-letter{
     background-color: var(--backgraound-light-color);

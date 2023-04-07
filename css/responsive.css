@@ -17,6 +17,18 @@
 .catagory-section{
     display: none;
 }
+
+
+/* Blog section==================================== */
+.single-article-image img {
+    width: 100%;
+    margin: 0 auto;
+    height: 51vh;
+}
+.blog-texts {
+    max-width: 100%;
+    margin: 5rem auto 0 auto;
+}
     /* Footer===================== */
     .footer.top {
         padding: 6rem 0;
