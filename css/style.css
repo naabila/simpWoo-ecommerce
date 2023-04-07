@@ -265,7 +265,7 @@ a.nav-link:hover{
 .menu-right ul li{
     margin: 0 1rem;
 }
-.menu-right.form-select{
+.menu-right .form-select{
     font-size: 1.6rem;
 }
 .menu-right.form-select:focus{
@@ -575,6 +575,34 @@ form.news-letter-form input {
     font-size: clamp(2.5rem,2.7vw,2.9rem);
     font-weight: 400;
     margin: 2rem 0 4rem 0;
+}
+/* =============================================================================================================================================== Contact ============================================= */
+.contact-text {
+    max-width: 90rem;
+    margin: 0 auto;
+    margin-bottom: clamp(3rem,50vw,6rem);
+}
+
+
+
+form.contact-form input,
+textarea#exampleFormControlTextarea1 {
+    padding: 2.5rem 3rem;
+    max-width: 50rem;
+    /* margin: 0 auto; */
+    margin: 3.5rem auto 1.5rem auto;
+    font-weight: 500;
+    font-size:1.6rem;
+}
+button.submit-btn {
+    width: 79%;
+    border: navajowhite;
+    outline: none;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    background-color: var(--para-color);
+    color: #fff;
+    margin-top: 1rem;
 }
 /* ================================================================================================= Footer*/
 .footer-widget {
